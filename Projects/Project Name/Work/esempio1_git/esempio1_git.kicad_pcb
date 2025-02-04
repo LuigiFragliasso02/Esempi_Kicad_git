@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Esempio 1 git")
+		(date "2025-02-04")
+		(rev "rev01")
+		(company "Kineton Società Benefit S.r.l.")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
