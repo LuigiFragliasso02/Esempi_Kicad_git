@@ -5,410 +5,312 @@
 	(uuid "2cfbeb7a-ca17-4a5c-8f6a-f6e0a6d51029")
 	(paper "A4")
 	(title_block
-		(title "Esempio 1 git")
+		(title "Esempio 1 git - E-S-C")
 		(date "2025-02-04")
 		(rev "rev01")
 		(company "Kineton Società Benefit S.r.l.")
 	)
-	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+	(lib_symbols)
+	(sheet
+		(at 52.07 49.53)
+		(size 22.86 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "042c1ba2-0d13-4036-ade6-72b6e612d652")
+		(property "Sheetname" "MCU"
+			(at 52.07 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 52.07 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
+		)
+		(instances
+			(project "esempio1_git"
+				(path "/2cfbeb7a-ca17-4a5c-8f6a-f6e0a6d51029"
+					(page "2")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 81.28 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 121.92 81.28)
+		(size 24.13 20.32)
 		(fields_autoplaced yes)
-		(uuid "11bf0028-0dd2-4738-bb50-0ae012595cfa")
-		(property "Reference" "R1"
-			(at 83.82 88.8999 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b2e1f95-bb01-4462-9c2f-8685193cee02")
+		(property "Sheetname" "MECHANICAL"
+			(at 121.92 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "R"
-			(at 83.82 91.4399 0)
+		(property "Sheetfile" "MECHANICAL.kicad_sch"
+			(at 121.92 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 79.502 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 81.28 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9c2b03c-4fac-4a5e-a720-c6b81223f6b9")
-		)
-		(pin "2"
-			(uuid "73f7fefb-2958-43c5-a780-cfbafa4d5317")
 		)
 		(instances
-			(project ""
+			(project "esempio1_git"
 				(path "/2cfbeb7a-ca17-4a5c-8f6a-f6e0a6d51029"
-					(reference "R1")
-					(unit 1)
+					(page "7")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 52.07 20.32)
+		(size 22.86 21.59)
 		(fields_autoplaced yes)
-		(uuid "308efdac-2f06-47cc-9fbc-b1248720bbb2")
-		(property "Reference" "R3"
-			(at 118.11 92.7099 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2be30390-94d4-46da-8a57-c768082c95fa")
+		(property "Sheetname" "OVERVIEW"
+			(at 52.07 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "R"
-			(at 118.11 95.2499 0)
+		(property "Sheetfile" "OVERVIEW.kicad_sch"
+			(at 52.07 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 113.792 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "032da8c7-e986-4cc7-8908-607fbac71e24")
-		)
-		(pin "2"
-			(uuid "54c90a30-9f00-43ea-b0f5-f3280a902c71")
 		)
 		(instances
-			(project ""
+			(project "esempio1_git"
 				(path "/2cfbeb7a-ca17-4a5c-8f6a-f6e0a6d51029"
-					(reference "R3")
-					(unit 1)
+					(page "8")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 138.43 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 86.36 20.32)
+		(size 22.86 21.59)
 		(fields_autoplaced yes)
-		(uuid "4a3b429a-ebe9-42ec-a102-04599c2db001")
-		(property "Reference" "R2"
-			(at 140.97 95.2499 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78e49578-bd2b-4715-aad5-e2db757838db")
+		(property "Sheetname" "BLOCK DIAGRAM"
+			(at 86.36 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "R"
-			(at 140.97 97.7899 0)
+		(property "Sheetfile" "BLOCK DIAGRAM.kicad_sch"
+			(at 86.36 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 136.652 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7232edc3-9acb-48db-a81f-8eba3a5a5fe8")
-		)
-		(pin "2"
-			(uuid "391a9f94-94d9-48f6-8ab9-7c64683cd47b")
 		)
 		(instances
-			(project ""
+			(project "esempio1_git"
 				(path "/2cfbeb7a-ca17-4a5c-8f6a-f6e0a6d51029"
-					(reference "R2")
-					(unit 1)
+					(page "9")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 121.92 49.53)
+		(size 24.13 21.59)
 		(fields_autoplaced yes)
-		(uuid "57cb7ec8-5f19-4662-8d37-58ebaec424d8")
-		(property "Reference" "R4"
-			(at 104.14 93.9799 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b770a41-b744-4d11-a6d0-9b81d424cb2b")
+		(property "Sheetname" "MOSFETs"
+			(at 121.92 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "R"
-			(at 104.14 96.5199 0)
+		(property "Sheetfile" "MOSFETs.kicad_sch"
+			(at 121.92 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 99.822 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff8c3db8-2a2a-4221-89fb-e2753cb03f74")
-		)
-		(pin "2"
-			(uuid "4d815023-1490-4d48-87f1-36c7e37e77c1")
 		)
 		(instances
-			(project ""
+			(project "esempio1_git"
 				(path "/2cfbeb7a-ca17-4a5c-8f6a-f6e0a6d51029"
-					(reference "R4")
-					(unit 1)
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 81.28)
+		(size 22.86 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c058092-d255-4e33-af98-c06505f992ff")
+		(property "Sheetname" "CAN"
+			(at 52.07 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 52.07 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esempio1_git"
+				(path "/2cfbeb7a-ca17-4a5c-8f6a-f6e0a6d51029"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 49.53)
+		(size 22.86 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "841c639a-33fc-47b6-83fa-e89b1e922113")
+		(property "Sheetname" "MOSFET DRIVER"
+			(at 86.36 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFET DRIVER.kicad_sch"
+			(at 86.36 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esempio1_git"
+				(path "/2cfbeb7a-ca17-4a5c-8f6a-f6e0a6d51029"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 81.28)
+		(size 22.86 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb8eb8e0-db94-48d2-b3e0-7cda4d2f88fc")
+		(property "Sheetname" "FILTERS"
+			(at 86.36 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FILTERS.kicad_sch"
+			(at 86.36 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esempio1_git"
+				(path "/2cfbeb7a-ca17-4a5c-8f6a-f6e0a6d51029"
+					(page "6")
 				)
 			)
 		)

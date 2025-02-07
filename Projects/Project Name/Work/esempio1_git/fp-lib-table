@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MyLibESP")(type "KiCad")(uri "${KIPRJMOD}/MyLibESP.pretty")(options "")(descr ""))
+)
