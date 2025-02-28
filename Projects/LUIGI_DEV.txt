@@ -1,1 +1,3 @@
-progetti sviluppati in dev
+Progetto 1:  ELETRONIC SPEED CONTROLLER 
+ 
+Progetto 2: Realizzazione board 
